@@ -1,0 +1,594 @@
+*{
+text-decoration: none;
+margin: 0;
+padding: 0;
+
+}
+
+ html{
+    scroll-behavior: smooth;
+ }
+
+
+body{
+    text-decoration: none;
+ background: linear-gradient(
+rgba(165, 30, 255, 0.459),
+rgba(0, 0, 0, 0.459),
+
+rgba(2, 26, 53, 0.929)
+
+),
+url("../imagenes/fondos.png");
+background-repeat: no-repeat ;
+background-size: cover;
+background-position: center;
+z-index: -1;
+min-height: 100vh;
+background-attachment: fixed;
+
+
+
+}
+
+.men-principal{
+display: flex;
+width: 75%;
+height: 40px;
+border-bottom: solid rgb(179, 0, 155);
+position: absolute;
+margin-left: 0px;
+opacity:0;
+transform: scale(0.9);
+position: fixed;
+top: 0;
+z-index: 10000;
+}
+
+.men-principal:active{
+transform: scale(1);
+
+}
+
+
+
+.men-principal ul{
+display: flex;
+list-style: none;
+padding-left: 150px;
+}
+
+
+.men-principal ul li  {
+text-decoration: none;
+padding: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+}
+
+
+.lk{
+transition: 1s;
+
+}
+.lk:hover{
+color: rgb(255, 91, 192);
+transition: 1s;
+
+}
+
+
+
+.men-principal a{
+color: white;
+
+
+}
+
+
+
+
+#estoy{
+color: rgb(255, 91, 192);
+
+}
+
+.icon-men{
+width: 60px;
+height: 60px;
+margin-top: 5px;
+z-index: 100000;
+position: absolute;
+position: fixed;
+top: 0;
+}
+.todo-menu{
+display: flex;
+
+}
+
+.icon-oculto{
+width: 30px;
+height: 30px;
+top: 25px;
+z-index: 100000;
+position: absolute;
+left: 98%;
+transition: 1s;
+}
+
+
+
+
+
+.Bienvenida{
+    width: 600px;
+margin-top:7%;
+margin-left: 5%;
+font-weight: 200;
+text-align: center;
+}
+
+
+
+.Bienvenida h1{
+margin: auto;
+color: white;
+font-size: 60px;
+}
+
+.Bienvenida span{
+margin: auto;
+color: rgb(255, 0, 149);
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Bienvenida p{
+color: rgb(114, 114, 114);
+font-size: 30px;
+margin-left: 15%;
+width: 400px;
+text-align: justify;
+font-family:Arial, Helvetica, sans-serif ;
+}
+
+#bienvenida-p2{
+
+    color: white;
+}
+
+#bienvenida-p1{
+
+    color: white;
+}
+
+.btn-proyect1{
+padding: 20px;
+height: 70px;
+   width: 190px;
+ margin-left: -35px;
+ margin-top: 30px;
+ border-radius: 20px;
+  background: linear-gradient(
+rgb(255, 255, 255),
+rgb(69, 0, 109)
+
+),
+
+url("");
+cursor: pointer;
+
+border: none;
+color: white;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-proyect2{
+padding: 20px;
+height: 70px;
+   width: 190px;
+ margin-top: 30px;
+  background: linear-gradient(
+rgba(255, 255, 255, 0),
+rgba(69, 0, 109, 0)
+
+),
+url("");
+cursor: pointer;
+border: solid rgb(86, 0, 112);
+color: white;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.Bienvenida-h6{
+color: white;
+text-align: justify;
+margin-left: 15%;
+font-size: 15px;
+margin-top: 10px;
+}
+
+
+.iconos-bienvenida img{
+width: 50px;
+
+
+}
+
+.iconos-bienvenida {
+margin-left: 11%;
+margin-top: 1%;
+
+}
+.todo-Bienvenida{
+display: flex;
+width: 100%;
+
+}
+.img-bienvenida-yo-programando{
+width: 300px;
+height: 450px;
+float: right;
+margin-top: -40%;
+margin-right: 12%;
+}
+
+.secciones-cuerpo-stacktecnologico{
+margin-top: 12%;
+ background: linear-gradient(
+rgba(0, 0, 0, 0),
+rgba(0, 0, 0, 0.2),
+
+rgba(2, 26, 53, 0.929)
+
+),
+url("../imagenes/fondos.png");
+}
+
+
+.secciones-cuerpo-stacktecnologico .titulo-stacktecnologico{
+text-align: center;
+font-size: 55px;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.secciones-cuerpo-stacktecnologico h1{
+text-align: center;
+font-size: 25px;
+color: rgb(255, 29, 187);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 25px;
+margin-bottom: 20px;
+}
+
+.secciones-cuerpo-stacktecnologico p{
+text-align: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 15px;
+font-size: 20px;
+}
+
+
+.cartas-tecnologicas{
+display: flex;
+margin-left: 12%;
+gap: 180px;
+}
+
+.carta{
+width:150px;height: 200px;
+border:solid rgb(209, 141, 255) 10px;
+border-radius: 40px;
+text-align: center;
+padding: 20px;
+ background: linear-gradient(
+rgb(0, 0, 0),
+rgba(255, 89, 0, 0.265),
+
+rgba(2, 26, 53, 0.929)
+
+),
+url("");
+    transition: 1s;
+filter: drop-shadow(15px 15px 25px black);
+
+}
+
+.carta:hover{
+        transition: 1s;
+
+filter: drop-shadow(15px 15px 25px rgb(96, 0, 75));
+
+
+}
+
+
+.carta img{
+width: 150px;
+}
+
+
+
+.carta p{
+font-size: 15px;
+}
+
+.carta h6{
+color: darksalmon;
+font-size: 20px;
+}
+.carta{
+display: grid;
+
+}
+
+
+.carta .intermedio{
+color: yellow;
+
+}
+
+
+
+
+
+
+        @keyframes rv{
+from {
+opacity: 0;
+scale: 35%;
+}
+
+to{
+opacity: 1;
+ scale: 100%;
+}
+
+
+        }
+
+        .carta{
+
+view-timeline-name: --image;
+view-timeline-axis: block;
+animation-timeline: --image;
+animation-name: rv;
+animation-range: entry 25% cover 60%;
+animation-fill-mode: both;
+        }
+
+        
+        p{
+
+view-timeline-name: --image;
+view-timeline-axis: block;
+animation-timeline: --image;
+animation-name: rv;
+animation-range: entry 25% cover 60%;
+animation-fill-mode: both;
+        }
+
+                
+       h2{
+
+view-timeline-name: --image;
+view-timeline-axis: block;
+animation-timeline: --image;
+animation-name: rv;
+animation-range: entry 25% cover 60%;
+animation-fill-mode: both;
+        }
+
+        .carta-html{
+            z-index: 10000;
+width: 100px;
+height: 100px;
+background-color: aqua;
+        }
+
+
+
+
+
+
+
+        
+.Bienvenida1{
+    width: 600px;
+margin-top:7%;
+margin-left: 5%;
+font-weight: 200;
+text-align: center;
+}
+
+
+
+.Bienvenida1 h1{
+margin: auto;
+color: white;
+font-size: 60px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Bienvenida1 span{
+margin: auto;
+color: rgb(255, 0, 149);
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Bienvenida1 p{
+color: rgb(114, 114, 114);
+font-size: 26px;
+margin-left: 15%;
+width: 400px;
+text-align: justify;
+font-family:Arial, Helvetica, sans-serif ;
+}
+
+#bienvenida-p21{
+
+    color: white;
+}
+
+#bienvenida-p11{
+
+    color: white;
+}
+
+
+.btn-proyect21{
+padding: 20px;
+height: 70px;
+   width: 390px;
+ margin-top: 30px;
+  background: linear-gradient(
+rgba(255, 255, 255, 0),
+rgba(69, 0, 109, 0)
+
+),
+url("");
+cursor: pointer;
+border: solid rgb(86, 0, 112);
+color: white;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-right: 0;
+border-radius: 20px;
+}
+
+
+
+.Bienvenida-h61{
+color: white;
+text-align: justify;
+margin-left: 15%;
+font-size: 15px;
+margin-top: 10px;
+}
+
+
+.iconos-bienvenida1 img{
+width: 50px;
+
+}
+
+.iconos-bienvenida1 {
+margin-left: 11%;
+margin-top: 1%;
+
+}
+.todo-Bienvenida1{
+display: flex;
+width: 100%;
+
+}
+.img-bienvenida-yo-programando1{
+width: 300px;
+height: 450px;
+float: right;
+margin-top: -40%;
+margin-right: 12%;
+}
+
+
+.secciones-cuerpo-Sobremi{
+margin-top: 12%;
+ background: linear-gradient(
+rgba(0, 0, 0, 0),
+rgba(0, 0, 0, 0.2),
+
+rgba(2, 26, 53, 0.929)
+
+),
+url("");
+}
+
+.img-bienvenida-yo1{
+width: 300px;
+height: 450px;
+float: right;
+margin-top: -44%;
+margin-right: 12%;
+}
+
+
+.form{
+background-color: transparent;
+max-width: 500px;
+margin-left: 50%;
+padding: 20px 0px;
+box-shadow: 0px 0px 35px rgb(0, 0, 0);
+margin-top: 0px;
+border-radius: 10px;
+color: white;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+margin-bottom: 10px;
+text-transform: uppercase;
+padding: 10px;
+}
+.enviar-form{
+margin-left: 5px;
+}
+
+.form h1{
+text-align: center;
+}
+.enviar-form{
+margin-left: 5px;
+}
+.form-imput{
+padding: 10px 20px;
+
+}
+
+input, textarea{
+width: 100%;
+border-left: solid black 5px;
+border: solid rgba(126, 126, 126, 0.515) 1px;
+background-color: transparent;
+border-sizing:border-box;
+padding: 5px;
+color: white;
+border-radius: 5px;
+box-shadow: 0px 0px 135px rgb(0, 0, 0);
+
+}
+
+
+textarea{
+    min-width: 100%;
+
+resize: vertical;
+min-height: 100px;
+min-height: 200px;
+
+}
+
+label{
+color: white;
+font-size: 1em;
+line-height: 2;
+}
+
+.secciones-cuerpo-form{
+margin-top: 12%;
+ background: linear-gradient(
+rgba(0, 0, 0, 0),
+rgba(0, 0, 0, 0.2),
+
+rgba(2, 26, 53, 0.929)
+
+),
+url("");
+}
